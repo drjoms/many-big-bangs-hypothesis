@@ -1,0 +1,48 @@
+[*] Starting Unified Batch Process for 3 files.
+    [+] Loaded Dead_Hot_Galaxies_Evidence.csv
+    [+] Loaded Master_Evidence1.csv
+    [+] Loaded Master_Evidence.csv
+
+============================================================
+          UNIFIED ISP PHASE TRANSITION TEST          
+============================================================
+Categorizing all data into Live vs Dead populations...
+  Total Objects Analyzed: 817
+  [+] LIVE Population:    741
+  [+] DEAD Population:    76
+------------------------------------------------------------
+
+============================================================
+                 STATISTICAL RESULTS                          
+==============================================================
+
+GROUP: LIVE (Hydrogen Present/Baseline)
+  Samples:           741
+  Measured Alpha:    0.7306 (Std: 0.6667)
+  Mean Delta (Δ):    2.7415 (Std: 1.0)
+  R-squared:         0.6308
+  P-value:           4.8482e-162
+  VERDICT: SIGNIFICANT deviation from Standard Model.
+  SIGNAL: Positive Heat Kick detected.
+
+GROUP: DEAD (No Hydrogen)
+  Samples:           76
+  Measured Alpha:    0.4098 (Std: 0.6667)
+  Mean Delta (Δ):    3.1025 (Std: 1.0)
+  R-squared:         0.4307
+  P-value:           1.2245e-10
+  VERDICT: SIGNIFICANT deviation from Standard Model.
+  SIGNAL: Positive Heat Kick detected.
+============================================================
+
+[HYPOTHESIS TEST: LIVE vs DEAD]
+Delta (Live): 2.7415
+Delta (Dead): 3.1025
+Difference (Δ_dead - Δ_live): 0.3610
+
+[!!!] SUCCESS: HYPOTHESIS SUPPORTED [!!!]
+The 'Heat Kick' is significantly higher in the DEAD group.
+This matches the theory of an ISP matter-dumping event.
+============================================================
+
+[!] Plot saved as 'ISP_Unified_Comparison_Result.png'
