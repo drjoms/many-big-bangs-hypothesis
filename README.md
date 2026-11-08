@@ -1,3 +1,1 @@
-# many-big-bangs-hypothesis
-CC BY 4.0 licensed idea for science fiction
-this may piss some physicist off :D
+gemma_gemini_gas_galaxy_with_STANDARD2.py - Mass to Metalicity.
