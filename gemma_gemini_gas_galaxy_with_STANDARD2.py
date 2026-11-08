@@ -1,3 +1,8 @@
+'''
+In order to run it - you need to download this:
+https://portal.nersc.gov/cfs/cosmo/data/sdss/dr16/sdss/atlas/v1/nsa_v1_0_1.fits
+'''
+
 import sys
 import os
 import argparse
